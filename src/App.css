@@ -1,11 +1,15 @@
-/* Custom Navbar */
-body{
-  background-color: #97b83c;
+/*************************** Default Css ***************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.nav {
-  
+/*************************** Navbar Css ***************************/
+body{
+  background-color: #000000;
+}
+.nav { 
   background-color: #00000079;
-  
   font-weight: 400;
   margin-bottom: 35px;
   width: 500px;
@@ -20,10 +24,12 @@ body{
   height: auto;
 }
 .nav-link {
+  
   color: #fefefe;
   background: transparent;
   font-family: 'Manrope', sans-serif;
   font-size: 18px;
+  border-radius: 50px;
 }
 .nav-link:hover {
   background-image: radial-gradient(
@@ -32,15 +38,14 @@ body{
   text-decoration: none;
   border-radius: 50px;
   color: #fefefe;
-  transition: 1ms;
+  cursor: pointer;
+  transition: 20s step-start;
 }
-/* a {
-  text-decoration: none;
-  color: red !important;
-} */
-.nav-link:focus, .nav-link:hove{
-  color: red important;
+.nav-link:focus{
+  color:  #fefefe;
+  background: transparent;
 } 
+
 @media screen and (max-width: 768px) {
   .nav {
     width: 350px;
