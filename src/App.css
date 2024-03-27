@@ -4,10 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*************************** Navbar Css ***************************/
 body{
   background-color: #000000;
 }
+/*************************** Navbar Css ***************************/
+
 .nav { 
   background-color: #00000079;
   font-weight: 400;
