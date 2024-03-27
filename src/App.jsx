@@ -1,10 +1,10 @@
 import React from 'react';
-import NavigationBar from './components/Navigation';
+import NavBar from './components/Navigation';
 
 function App() {
   return (
     <div>
-      <NavigationBar />
+      <NavBar />
       {/* Autres composants et contenu de l'application */}
     </div>
   );
