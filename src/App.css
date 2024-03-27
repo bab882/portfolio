@@ -4,9 +4,8 @@ body{
 }
 .nav {
   
-  background-color: #000000;
-  font-family: 'Manrope', sans-serif;
-  font-size: 18px;
+  background-color: #00000079;
+  
   font-weight: 400;
   margin-bottom: 35px;
   width: 500px;
@@ -23,19 +22,31 @@ body{
 .nav-link {
   color: #fefefe;
   background: transparent;
-  
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
 }
 .nav-link:hover {
-  background: rgba(170, 71, 248, 1);
+  background-image: radial-gradient(
+    ellipse at 1% 98%, #053781ce, #AA47F8 
+  );
+  text-decoration: none;
   border-radius: 50px;
-  color: #000000;transition: 2ms;
+  color: #fefefe;
+  transition: 1ms;
 }
-
+/* a {
+  text-decoration: none;
+  color: red !important;
+} */
+.nav-link:focus, .nav-link:hove{
+  color: red important;
+} 
 @media screen and (max-width: 768px) {
   .nav {
     width: 350px;
     height: 40px;
     font-size: 15px;
+    margin-bottom: 15px;
   }
  
 }
