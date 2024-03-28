@@ -9,7 +9,7 @@ body{
 }
 /*************************** Navbar Css ***************************/
 
-.nav { 
+/* .nav { 
   background-color: #00000079;
   font-weight: 400;
   margin-bottom: 35px;
@@ -55,7 +55,108 @@ body{
     margin-bottom: 15px;
   }
  
+} */
+
+
+
+nav {
+  position: fixed;
+  bottom: 30px; /* Placer la barre de navigation à 30px du bas */
+  left: 50%; /* Centrer horizontalement */
+  transform: translateX(-50%); /* Centrer horizontalement */
+  width: 500px;
+  height: 50px;
+  background: #222;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fefefe;
+}
+nav a {
+  position: relative;
+  display: inline-block;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fefefe;
+  text-decoration: none;
+  padding: 0 20px;
+  z-index: 1;
+}
+nav span {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  width: 67px;
+  background-image: radial-gradient(
+    ellipse at 1% 98%, #053781ce, #AA47F8 
+  );
+  opacity: 0;
+  height: 70%;
+  border-radius: 20px;
+  transition: .5s;
+  cursor: none;
 }
 
-
-
+nav a:nth-child(1):hover~span{
+  left: 10px;
+  width: 70px;
+  opacity: 1;
+}
+nav a:nth-child(2):hover~span{
+  left: 95px;
+  width: 70px;
+  opacity: 1;
+}
+nav a:nth-child(3):hover~span{
+  left: 179px;
+  width: 110px;
+  opacity: 1;
+  
+}
+nav a:nth-child(4):hover~span{
+  left: 300px;
+  width: 90px;
+  opacity: 1;
+  
+}
+nav a:nth-child(5):hover~span{
+  left: 407px;
+  width: 80px;
+  opacity: 1;
+}
+@media screen and (max-width: 767px) {
+  nav {
+    width: 340px;
+    
+    /* border: none; */
+  }
+  nav a {
+    font-size: 13px;
+    padding: 0 7px;
+  }
+  nav span {
+    left: 2px;
+  }
+  nav a:nth-child(1):hover~span{
+    left: 10px;
+    width: 56px;
+  }
+  nav a:nth-child(2):hover~span{
+    left: 65px;
+    width: 48px;
+  }
+  nav a:nth-child(3):hover~span{
+    left: 112px;
+    width: 84px;
+  }
+  nav a:nth-child(4):hover~span{
+    left: 195px;
+    width: 66px;
+  }
+  nav a:nth-child(5):hover~span{
+    left: 260px;
+    width: 66px;
+  }
+}

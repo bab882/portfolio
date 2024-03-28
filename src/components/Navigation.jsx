@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react';
-import { Navbar, Container, Nav } from 'react-bootstrap';
+
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState("works");
@@ -22,22 +22,14 @@ function NavBar() {
   }
 
   return (
-    <Navbar className={scrolled ? "scrolled" : ""}>
-      <Container className='position-fixed fixed-bottom nav'>
-       
-          <Navbar.Collapse className="d-flex justify-content-between " id="basic-navbar-nav">
-            
-              <Nav.Link href="#works" className={activeLink === 'Works' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('works')}>Works</Nav.Link>
-                <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-                <Nav.Link href="#experience" className={activeLink === 'experience' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experience')}>Experience</Nav.Link>
-                <Nav.Link href="#resume" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</Nav.Link>
-                <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>contact</Nav.Link>
-           
-        </Navbar.Collapse>
-
-        
-      </Container> 
-    </Navbar>
+    <nav className={scrolled ? "scrolled" : ""}>
+      <a href="#works" className={activeLink === 'works' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('works')}>Works</a>
+      <a href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</a>
+      <a href="#experience" className={activeLink === 'experience' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experience')}>Experience</a>
+      <a href="#resume" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</a>
+      <a href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>Contact</a>
+      <span></span>
+    </nav>
   );
 }
 
