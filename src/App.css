@@ -15,12 +15,12 @@ nav {
   transform: translateX(-50%); /* Centrer horizontalement */
   width: 500px;
   height: 50px;
-  background: #222;
+  background: #00000080;
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #fefefe;
+  border: 1px solid #222222;
 }
 nav a {
   position: relative;
@@ -78,8 +78,6 @@ nav a:nth-child(5):hover~span{
 @media screen and (max-width: 767px) {
   nav {
     width: 340px;
-    
-    /* border: none; */
   }
   nav a {
     font-size: 13px;
