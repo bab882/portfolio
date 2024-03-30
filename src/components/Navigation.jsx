@@ -1,6 +1,5 @@
 import {useState, useEffect} from 'react';
 
-
 function NavBar() {
   const [activeLink, setActiveLink] = useState("works");
   const [scrolled, seScrolled] = useState(false);
