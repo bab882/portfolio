@@ -18,7 +18,7 @@ function Banner() {
             <div className="hero">
                 <div className="hero-title">
                     <h1 id="title">
-                        <span>I'm Brandon 
+                        <span id="er">I'm Brandon 
                             <img className="wrapper__img" src={headerImg} alt="" /> 
                         </span>
                         <span>Creative FullStack</span>
