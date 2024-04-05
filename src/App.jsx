@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from './components/Banner';
 import NavBar from './components/Navigation';
+import Project from './components/Project';
 
 
 function App() {
@@ -8,7 +9,9 @@ function App() {
     <div className='App'>
       <Banner />
       <NavBar />
-      
+      <Project />
+
+      {/* <Banner /> */}
       {/* Autres composants et contenu de l'application */}
     </div>
   );
