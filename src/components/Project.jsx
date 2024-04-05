@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from "react";
+import viviani from "../assets/img/viviani.png";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
@@ -13,13 +14,13 @@ function Project(){
         const pin = gsap.fromTo(sectionRef.current, {
             translateX: 0
         }, {
-            translateX: "-300vw",
+            translateX: "-100vw",
             ease: "none",
             duration: 1,
             scrollTrigger: {
                 trigger: triggerRef.current,
                 start:  "top top",
-                end: "2000 top" ,
+                end: "1000 top" ,
                 scrub: 0.6,
                 pin: true
             }
@@ -30,40 +31,86 @@ function Project(){
     }, []);
     return(
         <section className="scroll-section-outer">
+            <div class="text-wrapper">
+                <span>Showcase 
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <span>Showcase 
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <span>Showcase 
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <span>Showcase 
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <span>Showcase 
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <span>Showcase 
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <span>Showcase 
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <span>Showcase 
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <span>Showcase 
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <span>Showcase 
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <span>Showcase 
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <span>Showcase 
+                    <i class="fa-solid fa-star"></i>
+                </span>
+            </div>
+            
+            
             <div ref={triggerRef}>
                 <div ref={sectionRef} className="scroll-section-inner">
+                <div className="wrapper__subtitle">
+                <h2 class="subtitle">Project</h2>
+                <p class="subtitle__text">I played a key role in project development. 
+                Here's a carefully selected showcase highlighting 
+                expertise and achieved results 
+                </p>
+                
+                    <a className="btn btn1" href="https://bab882.github.io/brandon-chanite/"  type="submit">Contact</a>
+              
+                    
+                
+            </div>
                     <div className="scroll-section">
-                        <div className="card" >
-                            <img src="https://picsum.photos/400/400" className="" alt="..."/>
-                            <div className="card_body">
-                                <p className="card_text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div className="project2">
+                            <div className="heading">
+                            <h4 className="title__1">HIP HOP F'EST</h4>
+                            <a href="https://hiphopfest.fr" className="link__project">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
                             </div>
+                            <div className="card-body2">
+                            </div> 
                         </div>
                     </div>
+                    
                     <div className="scroll-section">
-                        <div className="card" >
-                            <img src="https://picsum.photos/400/400" className="" alt="..."/>
-                            <div className="card_body">
-                                <p className="card_text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div className="project1">
+                            <div className="heading">
+                            <h4 className="title__1">VIVIANI</h4>
+                            <a href="#" className="link__project">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
                             </div>
+                            <div className="card-body">
+                            </div> 
                         </div>
                     </div>
-                    <div className="scroll-section">
-                        <div className="card" >
-                            <img src="https://picsum.photos/400/400" className="" alt="..."/>
-                            <div className="card_body">
-                                <p className="card_text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="scroll-section">
-                    <div className="card" >
-                            <img src="https://picsum.photos/400/400" className="" alt="..."/>
-                            <div className="card_body">
-                                <p className="card_text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </section>

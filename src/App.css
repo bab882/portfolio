@@ -3,9 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
 }
-body{
-  background-color: #000000;
+body {
+  background: #000000;
 }
 /*************************** Navbar Css ***************************/
 nav {
@@ -21,6 +22,7 @@ nav {
   justify-content: center;
   align-items: center;
   border: 1px solid #222222;
+  z-index: 1000;
 }
 nav a {
   position: relative;
@@ -825,17 +827,47 @@ a {
 }
 .scroll-section-outer {
   overflow: hidden;
+  background: #0B0B0E;
+  border-radius: 3rem 0 0 0;
 }
+.text-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+.text-wrapper span {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #666666;
+  /* -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: aliceblue; */
+  white-space: nowrap;
+  padding: 20px 0;
+  letter-spacing: 1px;
+  animation: linear-infite 6000ms linear infinite;
+}
+.text-wrapper span i {
+  padding: 0 2rem;
+}
+@keyframes linear-infite {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} 
 .scroll-section-inner {
   height: 100vh;
-  width: 400vw;
+  width: 200vw;
   display: flex;
   flex-direction: row;
   position: relative;
+  background: #0B0B0E;
 }
 .scroll-section {
   height: 100vh;
-  width: 100vw;
+  width: 50vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -844,4 +876,122 @@ a {
   color: #fefefe;
   text-transform: uppercase;
   background-color: red;
+}
+.wrapper__subtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 135px 0px 135px 300px;
+}
+.subtitle {
+  font-size: 6rem;
+  color: #fefefe;
+}
+.subtitle__text {
+  font-size: 20px;
+  color: #68717D;
+  max-width: 450px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 30px auto;
+}
+.btn {
+  background: none;
+  padding: 10px 20px;
+  width: 140px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fefefe;
+  margin-top: 30px;
+  left: 25%;
+  transition: 1s;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn:hover {
+  color: #fefefe;
+  font-weight: 600;
+  border: 1px solid #fefefe;
+}
+.btn1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background-image: radial-gradient(
+    ellipse at 1% 98%, #053781ce, #AA47F8 
+  );
+  /* background: white; */
+  z-index: -1;
+  transition: 1s;
+}
+.btn1::before {
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+  height: 180%;
+}
+.btn1:hover::before {
+  height: 0%;
+}
+.project1 {
+  background: red;
+  width: 30vw;
+  height: 73vh;
+  background-image: radial-gradient(
+    ellipse at 1% 98%, #626686, #ADB3EC 
+  );
+  padding: 0px 25px 0 25px;
+  border-radius: 30px;
+}
+.project2 {
+  background: red;
+  width: 30vw;
+  height: 73vh;
+  background-image: radial-gradient(
+    ellipse at 50% 98% , #666666, #000000  
+  );
+  padding: 0px 25px 0 25px;
+  border-radius: 30px;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  font-size: 34px;
+}
+.title__1 {
+  color: #fefefe;
+  font-size: 34px;
+  font-weight: 500;
+}
+.link__project {
+  display: flex;
+  justify-content: center;
+  color: #000000; 
+  background: #fefefe;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  align-items: center;
+}
+.fa-arrow-right {
+  font-size: 15px;
+}
+.card-body {
+  background-image: url(../src/assets/img/viviani.png);
+  background-position: top;
+  height: 575px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;  
+}
+.card-body2 {
+  background-image: url(../src/assets/img/festival.png);
+  background-position: bottom;
+  height: 575px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;  
 }
