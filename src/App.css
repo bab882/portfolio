@@ -715,116 +715,7 @@ a {
       transform: translateY(-2000px);
   }
 }
-@media screen and (max-width: 1400px){
-  #title span {
-    font-size: 6rem;
-  }
-  .hero-wrapper-description {
-    font-size: 15px;
-    max-width: 600px;
-    margin: 15px auto;
-    line-height: 1.6;
-  }
-}
-@media screen and (max-width: 1200px){
-  .hero {
-    margin: 0px 70px;
-  }
-  #title span {
-    font-size: 5rem;
-  }
-  .wrapper__img {
-    width: 10rem;
-    height: 4rem;
-    padding: 6px 0px 6px 0px;
-  }
-  .hero-wrapper-description {
-    font-size: 15px;
-    max-width: 500px;
-    margin: 15px auto;
-  }
-}
-@media screen and (max-width: 992px){
-  .hero {
-    top: 30%;
-    margin: 0px 70px;
-  }
-  #title span {
-    font-size: 4rem;
-    padding: 0;
-  }
-  .wrapper__img {
-    width: 10rem;
-    height: 4rem;
-    padding: 6px 0px 6px 0px;
-  }
-  .hero-wrapper-description {
-    font-size: 15px;
-    max-width: 500px;
-    margin: 15px auto;
-  }
-}
-@media screen and (max-width: 767px) {
-  nav {
-    width: 340px;
-  }
-  nav a {
-    font-size: 13px;
-    padding: 0 7px;
-  }
-  nav span {
-    left: 2px;
-  }
-  nav a:nth-child(1):hover~span{
-    left: 10px;
-    width: 56px;
-  }
-  nav a:nth-child(2):hover~span{
-    left: 65px;
-    width: 48px;
-  }
-  nav a:nth-child(3):hover~span{
-    left: 112px;
-    width: 84px;
-  }
-  nav a:nth-child(4):hover~span{
-    left: 195px;
-    width: 66px;
-  }
-  nav a:nth-child(5):hover~span{
-    left: 260px;
-    width: 66px;
-  }
-  .link {
-    margin: 10px 30px;
-  }
-  .link a img {
-    height: 50px;
-  }
-  .hero {
-    top: 15%;
-    margin: 30px;
-  }
-  .hero-title{
-    padding: 10px 20px;
-  }
-  #title span {
-    font-size: 3rem;
-    padding: 0;
-  }
-  
-  .wrapper__img {
-    width: 10rem;
-    height: 4rem;
-    padding: 5px 0px 5px 0px;
-    max-width: 300px;
-  }
-  .hero-wrapper-description {
-    font-size: 14px;
-    max-width: 360px;
-    margin: 12px auto;
-  }
-}
+
 .scroll-section-outer {
   overflow: hidden;
   background: #0B0B0E;
@@ -994,4 +885,119 @@ a {
   height: 575px;
   width: 100%;
   border-radius: 10px 10px 0 0;  
+}
+@media screen and (max-width: 1400px){
+  #title span {
+    font-size: 6rem;
+  }
+  .hero-wrapper-description {
+    font-size: 15px;
+    max-width: 600px;
+    margin: 15px auto;
+    line-height: 1.6;
+  }
+}
+@media screen and (max-width: 1200px){
+  .hero {
+    margin: 0px 70px;
+  }
+  #title span {
+    font-size: 5rem;
+  }
+  .wrapper__img {
+    width: 10rem;
+    height: 4rem;
+    padding: 6px 0px 6px 0px;
+  }
+  .hero-wrapper-description {
+    font-size: 15px;
+    max-width: 500px;
+    margin: 15px auto;
+  }
+}
+@media screen and (max-width: 992px){
+  .hero {
+    top: 30%;
+    margin: 0px 70px;
+  }
+  #title span {
+    font-size: 4rem;
+    padding: 0;
+  }
+  .wrapper__img {
+    width: 10rem;
+    height: 4rem;
+    padding: 6px 0px 6px 0px;
+  }
+  .hero-wrapper-description {
+    font-size: 15px;
+    max-width: 500px;
+    margin: 15px auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  nav {
+    width: 340px;
+  }
+  nav a {
+    font-size: 13px;
+    padding: 0 7px;
+  }
+  nav span {
+    left: 2px;
+  }
+  nav a:nth-child(1):hover~span{
+    left: 10px;
+    width: 56px;
+  }
+  nav a:nth-child(2):hover~span{
+    left: 65px;
+    width: 48px;
+  }
+  nav a:nth-child(3):hover~span{
+    left: 112px;
+    width: 84px;
+  }
+  nav a:nth-child(4):hover~span{
+    left: 195px;
+    width: 66px;
+  }
+  nav a:nth-child(5):hover~span{
+    left: 260px;
+    width: 66px;
+  }
+  .link {
+    margin: 10px 30px;
+  }
+  .link a img {
+    height: 50px;
+  }
+  .hero {
+    top: 15%;
+    margin: 30px;
+  }
+  .hero-title{
+    padding: 10px 20px;
+  }
+  #title span {
+    font-size: 3rem;
+    padding: 0;
+  }
+  .wrapper__img {
+    width: 10rem;
+    height: 4rem;
+    padding: 5px 0px 5px 0px;
+    max-width: 300px;
+  }
+  .hero-wrapper-description {
+    font-size: 14px;
+    max-width: 360px;
+    margin: 12px auto;
+  }
+  .text-wrapper span {
+    font-size: 10px;
+  }
+  htlm {
+    overflow-x: hidden;
+  }
 }
