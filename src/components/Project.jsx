@@ -20,8 +20,10 @@ function Project(){
                 trigger: triggerRef.current,
                 start:  "top top",
                 end: "1000 top" ,
-                scrub: 0.6,
-                pin: true
+                scrub: 1,
+                pin: true,
+                // snap: 1 / (sections.length - 1),
+                // end: ()=> "+=" + document.querySelectorAll(triggerRef.current).offsetWidth
             }
         });
 
@@ -71,7 +73,7 @@ function Project(){
             </div>
             
             
-            <div ref={triggerRef}>
+            <div ref={triggerRef} className="scroll">
                 <div ref={sectionRef} className="scroll-section-inner">
                 <div className="wrapper__subtitle">
                 <h2 className="subtitle">Project</h2>
@@ -125,6 +127,7 @@ function Project(){
                    
                 </div>
             </div>
+            
         </section>
     );
 }
