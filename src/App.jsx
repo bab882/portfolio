@@ -5,14 +5,15 @@ import Project from './components/Project';
 import Portfolio from './components/Portfolio';
 
 
+
 function App() {
   return (
     <div className='App'>
       <Banner />
       <NavBar />
       <Project />
-      <Portfolio /> 
-      {/* <Banner /> */}
+      <Portfolio />
+      {/* <Footer />  */}
       {/* Autres composants et contenu de l'application */}
     </div>
   );

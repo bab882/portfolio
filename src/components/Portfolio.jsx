@@ -11,7 +11,12 @@ import profil from "../assets/img/pohot.jpg";
 
 function Portfolio() {
   return (
-    <section className="container_about">
+    <section className="wrapper_about">
+    <div className="container_about">
+      <div className="wrapper__subtitle">
+        <h2 className="subtitle">My Skillset</h2>
+      </div>
+                      
       <div className="about">
         <div className="column">
           <div className="item">
@@ -77,32 +82,7 @@ function Portfolio() {
             </p>
             <img src={logo} alt="" className="logo" />
           </div>
-          <div className="item" id="item">
-            <h4>skillset</h4>
-            <div className="content">
-              <div className="stack">
-                <img src={stack1} alt="" />
-              </div>
-              <div className="stack">
-                <img src={stack2} alt="" />
-              </div>
-              <div className="stack">
-                <img src={stack3} alt="" />
-              </div>
-              <div className="stack">
-                <img src={stack4} alt="" />
-              </div>
-              <div className="stack">
-                <img src={stack5} alt="" />
-              </div>
-              <div className="stack">
-                <img src={stack6} alt="" />
-              </div>
-              <div className="stack">
-                <img src={stack7} alt="" />
-              </div>
-            </div>
-          </div>
+          
         </div>
 
         <div className="column">
@@ -180,9 +160,36 @@ function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="item">Caroussel with react</div>
+          {/* <div className="item">Caroussel with react</div> */}
+          <div className="item" id="item">
+            <h4>skillset</h4>
+            <div className="content">
+              <div className="stack">
+                <img src={stack1} alt="" />
+              </div>
+              <div className="stack">
+                <img src={stack2} alt="" />
+              </div>
+              <div className="stack">
+                <img src={stack3} alt="" />
+              </div>
+              <div className="stack">
+                <img src={stack4} alt="" />
+              </div>
+              <div className="stack">
+                <img src={stack5} alt="" />
+              </div>
+              <div className="stack">
+                <img src={stack6} alt="" />
+              </div>
+              <div className="stack">
+                <img src={stack7} alt="" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
     </section>
   );
 }
