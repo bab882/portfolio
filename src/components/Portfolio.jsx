@@ -8,6 +8,7 @@ import stack6 from "../assets/img/logo/webpack.png";
 import stack7 from "../assets/img/logo/symfony.png";
 import logo from "../assets/img/logo.png";
 import profil from "../assets/img/pohot.jpg";
+import cvPdf from "../assets/doc/cv.pdf";
 
 function Portfolio() {
   return (
@@ -40,7 +41,7 @@ function Portfolio() {
               </a>
             </div>
             <div className="link-right">
-              <a href="./assets/doc/cv.pdf" className="bg-icone2">
+              <a href={cvPdf} className="bg-icone2" target="_blank">
                 <i className="fa-solid fa-download"></i>Resume
               </a>
             </div>
@@ -134,7 +135,7 @@ function Portfolio() {
               </div>
               <div className="right">
                 <h3>Developer FullStack</h3>
-                <p>MC - Connexion</p>
+                <p>Circet France - modification app</p>
               </div>
             </div>
             <div className="cv-item">
@@ -143,7 +144,7 @@ function Portfolio() {
               </div>
               <div className="right">
                 <h3>Developer FullStack</h3>
-                <p>Isabelle Viviani</p>
+                <p>Isabelle Viviani - Creation de site</p>
               </div>
             </div>
           </div>

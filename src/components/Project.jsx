@@ -61,13 +61,15 @@ function Project(){
                 expertise and achieved results 
                 </p>
                 <a className="btn btn1" href="mailto: chanitebrandon@gmail.com"  type="button">Contact</a>
+
+                
             </div>
-            
-            <div className="project">1</div>
-            <div className="project">2</div>
-            <div className="project">3</div>
-            <div className="project">4</div>       
-                    
+            <div className="container__project">
+                <div className="project">1</div>
+                <div className="project">2</div>
+                <div className="project">3</div>
+                <div className="project">4</div>       
+            </div>        
                    
                 
                    
