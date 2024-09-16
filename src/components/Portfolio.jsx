@@ -135,7 +135,12 @@ function Portfolio() {
               </div>
               <div className="right">
                 <h3>Developer FullStack</h3>
-                <p>Circet France - modification app</p>
+                <span>Circet France</span>
+                <p>
+                  Managed and implemented modifications on internal applications.
+                  Optimized code for better performance and usability.
+                  Created new processes to improve functionality and workflow.
+                </p>
               </div>
             </div>
             <div className="cv-item">
@@ -144,7 +149,12 @@ function Portfolio() {
               </div>
               <div className="right">
                 <h3>Developer FullStack</h3>
-                <p>Isabelle Viviani - Creation de site</p>
+                <span>Isabelle Viviani</span>
+                <p>
+                  Designed and developed websites from concept to launch.
+                  Implemented user-friendly interfaces and ensured responsiveness across devices.
+                  Optimized websites for SEO and performance.
+                </p>
               </div>
             </div>
           </div>

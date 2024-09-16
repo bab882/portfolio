@@ -68,7 +68,7 @@ function Project(){
                 <div className="project">1</div>
                 <div className="project">2</div>
                 <div className="project">3</div>
-                <div className="project">4</div>       
+                <div className="project">4</div>
             </div>        
                    
                 

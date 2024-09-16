@@ -13,8 +13,15 @@ function Banner() {
                 <a href="#">
                     <img src={logo} alt="logo" />
                 </a>
-                <a href="">EN</a>
+                {/* <a href="">EN</a> */}
+                <div className="availability-bubble">
+                    <div className="status-indicator"></div>
+                    <span className="indicator">Available</span>
+                    
+                </div>
+                
             </div>
+            
             <div className="hero">
                 <div className="hero-title">
                     <h1 id="title">
