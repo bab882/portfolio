@@ -4,6 +4,8 @@ import logo from "../assets/img/logo.png";
 function Footer(){
     return(
         <footer className="container-fluid">
+            <div className="lighthing2"></div>
+            <div className="lighthing3"></div>
             <div className="line"></div>
             <div className="row">
                 <div className="wrapper_footer">
@@ -13,11 +15,14 @@ function Footer(){
                 </div>
 
                 <div className="footer__title">
+                    
+                    
                     <h2 className="subtitle">Interested in talking, let’s do it.</h2>
                     <a className="btn btn1 justify-content-center mx-2" href="mailto: chanitebrandon@gmail.com"  type="button">Contact</a>
                     <div className="line2 ">
+                        
                         <div className="row justify-content-between align-items-baseline ajusted">
-                            <div className="col-6 text-start">
+                            <div className="col-12 col-md-6 text-start">
                                 <div style={{color: "#fefefe"}}>
                                     Designed and developed by Bab
                                 </div>
@@ -27,7 +32,7 @@ function Footer(){
                                 </div>
                             </div>  
                             
-                            <div className="col-6 text-end">
+                            <div className="col-12 col-md-6 text-end">
                                 <a href="mailto:chanitebrandon@gmail.com" className="bg-icone">
                                     <i className="fa-solid fa-envelope"></i>
                                 </a>
@@ -40,7 +45,7 @@ function Footer(){
                             </div>
                         </div>
                     </div>
-
+                    
                     
                 </div> 
             </div>
