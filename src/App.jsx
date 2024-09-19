@@ -3,6 +3,7 @@ import Banner from './components/Banner';
 import NavBar from './components/Navigation';
 import Project from './components/Project';
 import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 
 
 
@@ -13,8 +14,7 @@ function App() {
       <NavBar />
       <Project />
       <Portfolio />
-      {/* <Footer />  */}
-      {/* Autres composants et contenu de l'application */}
+      <Footer /> 
     </div>
   );
 }
