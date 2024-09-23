@@ -1353,6 +1353,7 @@ footer {
   .wrapper_footer a img {
     height: 50px;
   }
+  
 }
 @media screen and (max-width: 643px) {
   .container_about .about {
@@ -1401,7 +1402,7 @@ footer {
   }
 
 } 
-@media screen and (max-width: 399px) {
+@media (min-width: 360px) and (max-width: 399px) {
   .left {
     flex: 0 0 70px;
   }
@@ -1421,24 +1422,30 @@ footer {
   .wrapper__subtitle {
     margin: 135px 0px 135px 0;
   }
-  .subtitle {
-    font-size: 2.5rem;
+}
+@media screen and (min-width: 360px) {
+  .footer__title {
+    margin: 70px 10px;
   }
   .footer__title .subtitle {
-    margin-top: 25%;
+    font-size: 2.5rem;
   }
   .line2 {
-    bottom: 300px;
+    bottom: 260px;
   }
   .ajusted {
-    margin-top: 10px;
-    
+    margin: 15px 0;
+    font-size: 12px;
   }
-  .col-12 {
-    
-    margin-top: -5px;
-
+  .ajusted .row {
+    flex-direction: column;
+  }
+  .ajusted .text-start, 
+  .ajusted .text-end {
+    text-align: center !important;
+  }
+  .ajusted .col-md-6 {
+    margin-bottom: -30px;
   }
 }
-
 

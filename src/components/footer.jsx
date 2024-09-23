@@ -20,7 +20,6 @@ function Footer(){
                     <h2 className="subtitle">Interested in talking, let’s do it.</h2>
                     <a className="btn btn1 justify-content-center mx-2" href="mailto: chanitebrandon@gmail.com"  type="button">Contact</a>
                     <div className="line2 ">
-                        
                         <div className="row justify-content-between align-items-baseline ajusted">
                             <div className="col-12 col-md-6 text-start">
                                 <div style={{color: "#fefefe"}}>
@@ -31,7 +30,6 @@ function Footer(){
                                     <span> 2024 All rights reserved</span>
                                 </div>
                             </div>  
-                            
                             <div className="col-12 col-md-6 text-end">
                                 <a href="mailto:chanitebrandon@gmail.com" className="bg-icone">
                                     <i className="fa-solid fa-envelope"></i>
@@ -45,8 +43,6 @@ function Footer(){
                             </div>
                         </div>
                     </div>
-                    
-                    
                 </div> 
             </div>
         </footer>
