@@ -1,14 +1,20 @@
-import React, {useRef} from "react";
+import React, {useRef, useEffect, useState} from "react";
 
 function Project(){
     const linkRef = useRef(null);
-    
-    
-  const handleClick = () => {
-    // Faire quelque chose avec le lien, comme le focus
-    linkRef.current.focus();
-  };
+    const handleClick = () => {
+        // Faire quelque chose avec le lien, comme le focus
+        linkRef.current.focus();
+    };
 
+    const [email, setEmail] = useState("");
+
+    useEffect(() => {
+        const hash1 = "contact";
+        const hash2 = "bab-codes";
+        const hash3 = ".fr";
+        setEmail(`${hash1}@${hash2}${hash3}`);
+    }, []);
     
     return(
         <section className="scroll-section-outer">
