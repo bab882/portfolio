@@ -23,8 +23,4 @@ jobs:
         run: |
           sshpass -e ssh -o StrictHostKeyChecking=no ${{ secrets.APP_USER }}@${{ secrets.APP_HOST }} -p 5022 "
           cd bab-codes.fr/ &&
-<<<<<<< HEAD
           git pull"
-=======
-          git pull"
->>>>>>> 31e7c4eb42cb321f24dbcdafabd5653cc7fecf90
