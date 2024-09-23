@@ -60,7 +60,7 @@ function Project(){
                 Here's a carefully selected showcase highlighting 
                 expertise and achieved results 
                 </p>
-                <a className="btn btn1" href="mailto: chanitebrandon@gmail.com"  type="button">Contact</a>
+                <a className="btn btn1" href={`mailto:{email}`}  type="button">Contact</a>
 
                 
             </div>
