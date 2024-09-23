@@ -15,7 +15,7 @@ function Project(){
         const hash3 = ".fr";
         setEmail(`${hash1}@${hash2}${hash3}`);
     }, []);
-    
+
     return(
         <section className="scroll-section-outer">
             <div className="text-wrapper">
