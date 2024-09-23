@@ -1,6 +1,7 @@
 import React, {useRef, useEffect, useState} from "react";
 
 function Project(){
+    
     const linkRef = useRef(null);
     const handleClick = () => {
         // Faire quelque chose avec le lien, comme le focus
@@ -66,7 +67,7 @@ function Project(){
                 Here's a carefully selected showcase highlighting 
                 expertise and achieved results 
                 </p>
-                <a className="btn btn1" href={`mailto:{email}`}  type="button">Contact</a>
+                <a className="btn btn1" href={`mailto:${email}`}  type="button">Contact</a>
 
                 
             </div>
