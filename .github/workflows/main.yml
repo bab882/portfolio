@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       
       - name: APT UPDATE and INSTALL SSHPASS
         run: |
@@ -23,9 +23,4 @@ jobs:
         run: |
           sshpass -e ssh -o StrictHostKeyChecking=no ${{ secrets.APP_USER }}@${{ secrets.APP_HOST }} -p 5022 "
           cd bab-codes.fr/ &&
-          git pull &&
-          php composer.phar dump-env dev &&
-          php composer.phar install &&
-          php bin/console d:s:u --force &&
-          php composer.phar dump-env prod &&
-          php bin/console cache:clear"
+          git pull"
