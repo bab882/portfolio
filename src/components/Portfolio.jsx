@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import stack1 from "../assets/img/logo/figma.png";
 import stack2 from "../assets/img/logo/html.png";
 import stack3 from "../assets/img/logo/api.png";
@@ -11,6 +11,16 @@ import profil from "../assets/img/pohot.jpg";
 import cvPdf from "../assets/doc/cv.pdf";
 
 function Portfolio() {
+
+  const [email, setEmail] = useState("");
+
+  useEffect(() => {
+    const hash1 = "contact";
+    const hash2 = "bab-codes";
+    const hash3 = ".fr";
+    setEmail(`${hash1}@${hash2}${hash3}`);
+  })
+
   return (
     <section className="wrapper_about">
     <div className="container_about">
@@ -27,7 +37,7 @@ function Portfolio() {
               problems.
             </p>
             <div className="link-left">
-              <a href="mailto: chanitebrandon@gmail.com" className="bg-icone">
+              <a href={`mailto:${email}`} className="bg-icone">
                 <i className="fa-solid fa-envelope"></i>
               </a>
               <a href="https://github.com/bab882" className="bg-icone">
