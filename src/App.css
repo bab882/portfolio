@@ -35,6 +35,7 @@ nav a {
   padding: 0 15px;
   z-index: 1;
 }
+
 nav span {
   position: absolute;
   top: 8px;
@@ -1294,7 +1295,6 @@ footer {
   }
   nav a {
     font-size: 13px;
-    padding: 0 7px;
   }
   nav span {
     left: 2px;
@@ -1356,7 +1356,6 @@ footer {
   .wrapper_footer a img {
     height: 50px;
   }
-  
 }
 @media screen and (max-width: 643px) {
   .container_about .about {
@@ -1452,3 +1451,17 @@ footer {
   }
 }
 
+
+
+
+
+
+/* Styles pour la version mobile */
+@media (max-width: 768px) {
+  .nav-text {
+    display: none; /* Masquer le texte sur mobile */
+  }
+  .icone {
+    display: inline; /* Afficher les icônes sur mobile */
+  }
+}

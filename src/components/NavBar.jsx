@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 
+
 function NavBar() {
   const [activeLink, setActiveLink] = useState("works");
   const [scrolled, setScrolled] = useState(false);
@@ -38,7 +39,6 @@ function NavBar() {
     <nav className={scrolled ? "scrolled" : ""}>
       <a href="#home" className={activeLink === "home" ? "active navbar-link" : "navbar-link"}onClick={() => onUpdateActiveLink("home")} >Home</a>
       <a href="#works" className={activeLink === "works" ? "active navbar-link" : "navbar-link"}onClick={() => onUpdateActiveLink("works")} >Works</a>
-      {/* <a href="#skills" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("skills")} >Skills</a> */}
       <a href="#resume" className={activeLink === "resume" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("resume")} >Resume</a>
       <a href="#contact" className={activeLink === "contact" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("contact")} >Contact</a>
       <span></span>
