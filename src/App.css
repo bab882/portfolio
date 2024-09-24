@@ -39,7 +39,7 @@ nav span {
   position: absolute;
   top: 8px;
   left: 10px;
-  width: 67px;
+  width: 60px;
   background-image: radial-gradient(
     ellipse at 1% 98%, #053781ce, #AA47F8 
   );
@@ -56,8 +56,8 @@ nav a:nth-child(1):hover~span{
   opacity: 1;
 }
 nav a:nth-child(2):hover~span{
-  left: 95px;
-  width: 70px;
+  left: 85px;
+  width: 67px;
   opacity: 1;
 }
 nav a:nth-child(3):hover~span{
@@ -70,11 +70,11 @@ nav a:nth-child(4):hover~span{
   width: 90px;
   opacity: 1;
 }
-nav a:nth-child(5):hover~span{
+/* nav a:nth-child(5):hover~span{
   left: 407px;
   width: 80px;
   opacity: 1;
-}
+} */
 
 
 /*  Header Css */
