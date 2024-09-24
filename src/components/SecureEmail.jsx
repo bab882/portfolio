@@ -11,10 +11,8 @@ function SecureEmail() {
     }, []);
 
     return (
-        <a href={`mailto:${email}`} className={contact}>
-          {email}
-        </a>
-      );
+        <a href={`mailto:{email}`} className={contact}></a>
+    );
 }
 
 export default SecureEmail;
