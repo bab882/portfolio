@@ -36,14 +36,43 @@ function NavBar() {
   };
 
   return (
-    <nav className={scrolled ? "scrolled" : ""}>
-      <a href="#home" className={activeLink === "home" ? "active navbar-link" : "navbar-link"}onClick={() => onUpdateActiveLink("home")} >Home</a>
-      <a href="#works" className={activeLink === "works" ? "active navbar-link" : "navbar-link"}onClick={() => onUpdateActiveLink("works")} >Works</a>
-      <a href="#resume" className={activeLink === "resume" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("resume")} >Resume</a>
-      <a href="#contact" className={activeLink === "contact" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("contact")} >Contact</a>
+    <nav itemScope itemType="https://schema.org/SiteNavigationElement" className={scrolled ? "scrolled" : ""}>
+      <a 
+        href="#home" 
+        itemProp="url" 
+        className={activeLink === "home" ? "active navbar-link" : "navbar-link"} 
+        onClick={() => onUpdateActiveLink("home")}
+      >
+        <span itemProp="name">Home</span>
+      </a>
+      <a 
+        href="#works" 
+        itemProp="url" 
+        className={activeLink === "works" ? "active navbar-link" : "navbar-link"} 
+        onClick={() => onUpdateActiveLink("works")}
+      >
+        <span itemProp="name">Works</span>
+      </a>
+      <a 
+        href="#resume" 
+        itemProp="url" 
+        className={activeLink === "resume" ? "active navbar-link" : "navbar-link"} 
+        onClick={() => onUpdateActiveLink("resume")}
+      >
+        <span itemProp="name">Resume</span>
+      </a>
+      <a 
+        href="#contact" 
+        itemProp="url" 
+        className={activeLink === "contact" ? "active navbar-link" : "navbar-link"} 
+        onClick={() => onUpdateActiveLink("contact")}
+      >
+        <span itemProp="name">Contact</span>
+      </a>
       <span></span>
     </nav>
   );
+  
 }
 
 export default NavBar;
