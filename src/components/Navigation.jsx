@@ -1,4 +1,5 @@
 import {useState, useEffect} from 'react';
+import {Navbar, Container, Nav} from 'react-bootstrap';
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState("works");
@@ -6,7 +7,7 @@ function NavBar() {
 
   useEffect(() => {
     const onScroll = () => {
-      if (window.scrollY>800){
+      if (window.scrollY>50){
         seScrolled(true);
       } else {
         seScrolled(false);
