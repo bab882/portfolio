@@ -17,7 +17,7 @@ function Project() {
   }, []);
 
   return (
-    <section className="scroll-section-outer">
+    <section id="works" className="scroll-section-outer">
       <div className="text-wrapper">
         <span>
           Showcase

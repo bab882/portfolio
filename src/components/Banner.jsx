@@ -4,7 +4,7 @@ import headerImg from "../assets/img/image.jpeg";
 
 function Banner() {
     return (
-        <header id="works">
+        <header id="home">
             <div className="lighthing"></div>
             <div id="stars"></div>
             <div id="stars2"></div>
