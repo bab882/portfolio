@@ -22,7 +22,7 @@ function NavBar() {
   }
 
   return (
-    <nav className={scrolled ? "scrolled" : ""}>
+    <nav className={scrolled ? "scrolled": ""}>
       <a href="#works" className={activeLink === 'works' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('works')}>Works</a>
       <a href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</a>
       <a href="#experience" className={activeLink === 'experience' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('experience')}>Experience</a>
