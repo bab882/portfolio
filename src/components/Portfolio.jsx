@@ -29,7 +29,8 @@ function Portfolio() {
               problems.
             </p>
             <div className="link-left">
-              <a href={`mailto:{SecureEmail}`} className="bg-icone">
+              <a href={`mailto:{email}`} className="bg-icone">
+                {SecureEmail}
                 <i className="fa-solid fa-envelope"></i>
               </a>
               <a href="https://github.com/bab882" className="bg-icone">
