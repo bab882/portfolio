@@ -13,7 +13,7 @@ function Footer() {
 
   return (
     
-    <footer className="container-fluid">
+    <footer className="container-fluid" id="contact">
       <div className="lighthing2"></div>
       <div className="lighthing3"></div>
       <div className="line"></div>
