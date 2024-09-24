@@ -22,7 +22,7 @@ function Portfolio() {
   }, []);
 
   return (
-    <section className="wrapper_about">
+    <section id="resume" className="wrapper_about">
     <div className="container_about">
       <div className="wrapper__subtitle">
         <h2 className="subtitle">My Skillset</h2>
