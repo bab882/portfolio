@@ -9,7 +9,12 @@ function SecureEmail() {
         const hash3 = ".fr";
         setEmail(`${hash1}@${hash2}${hash3}`);
     }, []);
-    
+
+    return (
+        <a href={`mailto:${email}`} className={contact}>
+          {email}
+        </a>
+      );
 }
 
 export default SecureEmail;
