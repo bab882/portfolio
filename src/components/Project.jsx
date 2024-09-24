@@ -1,4 +1,5 @@
-import React, {useRef, useEffect, useState} from "react";
+import React, {useRef} from "react";
+import SecureEmail from "./SecureEmail";
 
 function Project(){
     
@@ -8,14 +9,7 @@ function Project(){
         linkRef.current.focus();
     };
 
-    const [email, setEmail] = useState("");
-
-    useEffect(() => {
-        const hash1 = "contact";
-        const hash2 = "bab-codes";
-        const hash3 = ".fr";
-        setEmail(`${hash1}@${hash2}${hash3}`);
-    }, []);
+    
 
     return(
         <section className="scroll-section-outer">
@@ -67,7 +61,7 @@ function Project(){
                 Here's a carefully selected showcase highlighting 
                 expertise and achieved results 
                 </p>
-                <a className="btn btn1" href={`mailto:${email}`}  type="button">Contact</a>
+                <a className="btn btn1" href={`mailto:${SecureEmail}`}  type="button">Contact</a>
 
                 
             </div>

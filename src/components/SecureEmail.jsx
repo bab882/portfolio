@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 function SecureEmail() {
+    
     const [email, setEmail] = useState("");
 
     useEffect(() => {
@@ -11,7 +12,7 @@ function SecureEmail() {
     }, []);
 
     return (
-        <a href={`mailto:{email}`} className={contact}></a>
+        <a href={`mailto:${email}`} className={contact}></a>
     );
 }
 
