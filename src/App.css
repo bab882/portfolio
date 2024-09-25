@@ -198,12 +198,22 @@ a {
   object-fit: cover;
   object-position: top; 
 }
+#title {
+  font-family: 'Manrope', sans-serif;
+  font-size: 8rem;
+  font-weight: 900;
+  background: -webkit-linear-gradient(40deg,#fefefe, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  padding: 0 5px;
+}
 #title span {
   display: block;
   font-family: 'Manrope', sans-serif;
   font-size: 8rem;
-  font-weight: 600;
-  background: -webkit-linear-gradient(#fefefe, #38495a);
+  font-weight: 900;
+  background: -webkit-linear-gradient(40deg,#fefefe, #38495a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 1;
