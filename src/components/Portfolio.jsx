@@ -60,36 +60,18 @@ function Portfolio() {
             <h4>my background</h4>
             <p>
               Originally from the
-              <span className="effecte">charming town of Remiremont</span>,
-              nestled in the heart of the Vosges mountains, I grew up in an
-              environment where nature was as{" "}
-              <span className="effecte">inspiring</span> as the rapidly
-              expanding digital world.
+              <span className="effecte"> charming town of Remiremont,</span> nestled in the heart of the Vosges mountains, I grew up in an environment where nature was as
+              <span className="effecte"> inspiring</span> as the rapidly expanding digital world.
             </p>
             <p>
-              My <span className="effecte">fascination with technology</span>{" "}
-              began at a young age, sparked by watching my grandfather
-              assemble PCs in his office with passionate interest. Although I
-              pursued a degree in computer science, my true passion lies in the
-              craft of
-              <span className="effecte">programming, extending beyond mere
-                lines of code.</span>
+              My <span className="effecte">fascination with technology</span> began at a young age, sparked by watching my grandfather assemble PCs in his office with passionate interest. Although I pursued a degree in computer science, my true passion lies in the craft of
+              <span className="effecte">programming, extending beyond mere lines of code.</span>
             </p>
             <p>
-              My curiosity led me to wonder:
-              <span className="effecte">
-                could I also create something that can evoke this effect on
-                people?
-              </span>
+              My curiosity led me to wonder: <span className="effecte">could I also create something that can evoke this effect on people? </span>
             </p>
             <p>
-              Today,
-              <span className="effecte">
-                I apply my skills to create digital solutions
-              </span>
-              for user experiences, transforming ideas into digital reality
-              with
-              <span className="effecte">creativity and efficiency.</span>
+              Today, <span className="effecte">I apply my skills to create digital solutions</span> for user experiences, transforming ideas into digital reality with <span className="effecte">creativity and efficiency.</span>
             </p>
             <img src={logo} alt="" className="logo" />
           </div>
