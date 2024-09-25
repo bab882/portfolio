@@ -198,7 +198,7 @@ a {
   object-fit: cover;
   object-position: top; 
 }
-#title {
+/* #title {
   font-family: 'Manrope', sans-serif;
   font-size: 8rem;
   font-weight: 900;
@@ -207,7 +207,7 @@ a {
   -webkit-text-fill-color: transparent;
   line-height: 1;
   padding: 0 5px;
-}
+} */
 #title span {
   display: block;
   font-family: 'Manrope', sans-serif;
