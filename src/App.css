@@ -4,10 +4,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Manrope', sans-serif;
-  overflow: hidden;
+  
 }
 body {
-  background: #000000;
+  background: #000000;overflow: hidden;
 }
 /*************************** Navbar Css ***************************/
 nav {
