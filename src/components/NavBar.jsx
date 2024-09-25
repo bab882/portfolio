@@ -39,35 +39,35 @@ function NavBar() {
     <nav itemScope itemType="https://schema.org/SiteNavigationElement" className={scrolled ? "scrolled" : ""}>
       <a 
         href="#home" 
-        itemProp="url" 
+        itemProp="url name" 
         className={activeLink === "home" ? "active navbar-link" : "navbar-link"} 
         onClick={() => onUpdateActiveLink("home")}
       >
-        <span itemProp="name">Home</span>
+        Home
       </a>
       <a 
         href="#works" 
-        itemProp="url" 
+        itemProp="url name" 
         className={activeLink === "works" ? "active navbar-link" : "navbar-link"} 
         onClick={() => onUpdateActiveLink("works")}
       >
-        <span itemProp="name">Works</span>
+        Works
       </a>
       <a 
         href="#resume" 
-        itemProp="url" 
+        itemProp="url name" 
         className={activeLink === "resume" ? "active navbar-link" : "navbar-link"} 
         onClick={() => onUpdateActiveLink("resume")}
       >
-        <span itemProp="name">Resume</span>
+        Resume
       </a>
       <a 
         href="#contact" 
-        itemProp="url" 
+        itemProp="url name" 
         className={activeLink === "contact" ? "active navbar-link" : "navbar-link"} 
         onClick={() => onUpdateActiveLink("contact")}
       >
-        <span itemProp="name">Contact</span>
+        Contact
       </a>
       <span></span>
     </nav>

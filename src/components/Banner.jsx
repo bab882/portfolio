@@ -17,9 +17,7 @@ function Banner() {
                 <div className="availability-bubble">
                     <div className="status-indicator"></div>
                     <span className="indicator">Available</span>
-                    
                 </div>
-                
             </div>
             
             <div className="hero">
