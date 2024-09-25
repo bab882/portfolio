@@ -1244,6 +1244,26 @@ footer {
     max-width: 500px;
     margin: 15px auto;
   }
+  .scroll-section-inner {
+    margin-bottom: 80px;
+  }
+  .btn1 {
+    width: 100px;
+    height: auto;
+    font-size: 14px;
+  }
+  .subtitle {
+    font-size: 4rem;
+  }
+  .subtitle__text {
+    font-size: 16px;
+  }
+  .container__project {
+    margin: 0px 0px -20px 150px;
+  }
+  .project {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 991px) {
   .container_about .about {
@@ -1444,7 +1464,10 @@ footer {
     /* background-color: yellow; */
   }
   .project {
-    width: 125%;
+    width: 100%;
+  }
+  .container__project {
+    margin: 0 0 -20px 0;
   }
   .title__project {
     font-size: 14px;
