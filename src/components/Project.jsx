@@ -81,26 +81,23 @@ function Project() {
           </div>
           <div className="container__project">
             <div className="project">
-              <a href="#">
-                <h3>Lorem ipsum dolor sit amet.</h3>
+              <a href="/snake/index.html" target="_blank">
+                <h3 className="title__project">Snake Game</h3>
                 <p className="project__text mt-3">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
-                  dicta pariatur quis veniam ut, assumenda ab nesciunt
-                  accusantium veritatis voluptatum officiis distinctio, quod,
-                  soluta animi! Ipsa temporibus sed hic voluptatem.
+                This project is a modern take on the classic Snake game. The player controls a 
+                snake that grows longer each time it eats. Avoid obstacles and try to achieve 
+                the highest score possible!
                 </p>
                 <ul className="outil__project" style={{ listStyle: "none", padding: 0 }}>
-                  <li style={{ display: "inline" }}>React</li>
+                  <li style={{ display: "inline" }}>CSS</li>
                   <li style={{ display: "inline", margin: "0 10px" }}>-</li>
-                  <li style={{ display: "inline" }}>Symfony</li>
-                  <li style={{ display: "inline", margin: "0 10px" }}>-</li>
-                  <li style={{ display: "inline" }}>MySQL</li>
+                  <li style={{ display: "inline" }}>JavaScript</li>
                 </ul>
               </a>
             </div>
             <div className="project">
               <a href="#">
-                <h3>Lorem ipsum dolor sit amet.</h3>
+                <h3 className="title__project" >Lorem ipsum dolor sit amet.</h3>
                 <p className="project__text mt-3">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
                   dicta pariatur quis veniam ut, assumenda ab nesciunt
@@ -121,11 +118,7 @@ function Project() {
             </div>
             <div className="project">
               <a href="#">
-                <div>
-                  <h3>Lorem ipsum dolor sit amet.</h3>
-                  <i class="fa-regular fa-arrow-right"></i>
-                </div>
-
+                <h3 className="title__project" >Lorem ipsum dolor sit amet.</h3>
                 <p className="project__text mt-3">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
                   dicta pariatur quis veniam ut, assumenda ab nesciunt
