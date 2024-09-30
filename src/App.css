@@ -1558,7 +1558,7 @@ footer {
   }
 } 
 @media (min-width: 360px) and (max-width: 399px) {
-  body {
+  footer {
     overflow: hidden;
   }
   .link a img {
