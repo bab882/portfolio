@@ -781,9 +781,9 @@ a {
 }
 
 .scroll-section-outer {
-  overflow: hidden;
   background: #050507;
   border-radius: 3rem 3rem 0 0;
+
 }
 .text-wrapper {
   display: flex;
@@ -1166,10 +1166,16 @@ footer {
     margin-bottom: 20px;
   }
   .container__project {
-    margin: 0px 120px 20px 0;
+    margin: 0px 50px 20px 0;
   }
   .wrapper__subtitle{
-    margin: 100px 0px 135px 70px;
+    margin: 130px 0px 135px 70px;
+  }
+  .subtitle {
+    font-size: 5rem;
+  }
+  .subtitle__text {
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 1400px)  {
