@@ -26,7 +26,7 @@ function App() {
           }
         />
         {/* Routes pour les projets sans rappeler les autres composants */}
-        <Route path="/project/snake" element={<SnakeGame />} />
+        <Route path="/snake" element={<SnakeGame />} />
       </Routes>
     </Router>
   );
