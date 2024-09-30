@@ -1625,4 +1625,16 @@ footer {
     margin-bottom: -30px;
   }
 }
-
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+canvas {
+  border: 1px solid #fefefe;
+  background: #000000;
+  background-image: ;
+}
