@@ -1162,6 +1162,12 @@ footer {
   transform: translateX(-50%);
 }
 @media screen and (max-width: 1700px) {
+  #title span {
+    font-size: 7rem;
+  }
+  .hero-wrapper-description {
+    font-size: 20px;
+  }
   .scroll-section-inner {
     margin-bottom: 20px;
   }
@@ -1589,6 +1595,9 @@ footer {
   .outil__project {
     font-size: 12px;
     margin: 0;
+  }
+  .container_about {
+    margin: -130px 20px -20px;
   }
 }
 @media screen and (min-width: 360px) {
