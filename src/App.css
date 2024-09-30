@@ -1558,13 +1558,7 @@ footer {
   }
 } 
 @media (min-width: 360px) and (max-width: 399px) {
-  footer {
-    overflow: hidden;
-    height: 100vh;
-  }
-  .link a img {
-    height: 70px;
-  }
+  
   .left {
     flex: 0 0 70px;
   }
@@ -1633,6 +1627,9 @@ footer {
   }
   .ajusted .col-md-6 {
     margin-bottom: -30px;
+  }
+  .link a img {
+    height: 70px;
   }
 }
 
