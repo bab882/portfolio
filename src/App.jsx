@@ -6,7 +6,7 @@ import Project from './components/Project';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import SnakeGame from './components/SnakeGame';
-
+import { HashRouter } from 'react-router-dom'; // Importer HashRouter pour les projets
 
 function App() {
   return (
@@ -25,8 +25,19 @@ function App() {
             </div>
           }
         />
-        {/* Routes pour les projets sans rappeler les autres composants */}
-        <Route path="/snake" element={<SnakeGame />} />
+        {/* Utilisation de HashRouter pour les projets */}
+        <Route
+          path="project/*"
+          element={
+            <HashRouter>
+              <Routes>
+                {/* Routes pour les projets spécifiques */}
+                <Route path="snake" element={<SnakeGame />} />
+                {/* Ajoute d'autres projets si nécessaire */}
+              </Routes>
+            </HashRouter>
+          }
+        />
       </Routes>
     </Router>
   );
