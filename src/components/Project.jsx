@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 
+
 function Project() {
   const linkRef = useRef(null);
   const handleClick = () => {
@@ -81,7 +82,7 @@ function Project() {
           </div>
           <div className="container__project">
             <div className="project">
-              <a href="/snake/index.html" target="_blank">
+              <a href="#" target="_blank">
                 <h3 className="title__project">Snake Game</h3>
                 <p className="project__text mt-3">
                 This project is a modern take on the classic Snake game. The player controls a 
