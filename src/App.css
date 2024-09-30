@@ -1560,6 +1560,7 @@ footer {
 @media (min-width: 360px) and (max-width: 399px) {
   footer {
     overflow: hidden;
+    margin-bottom: 0;
   }
   .link a img {
     height: 70px;
