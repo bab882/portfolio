@@ -32,7 +32,7 @@ function App() {
             <HashRouter>
               <Routes>
                 {/* Routes pour les projets spécifiques */}
-                <Route path="snake" element={<SnakeGame />} />
+                <Route path="/snake" element={<SnakeGame />} />
                 {/* Ajoute d'autres projets si nécessaire */}
               </Routes>
             </HashRouter>
