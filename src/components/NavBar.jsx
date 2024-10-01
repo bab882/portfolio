@@ -70,10 +70,10 @@ function NavBar() {
         Contact
       </a>
       <NavLink 
-        to="/project/toto" 
+        to="/project/snake" 
         itemProp="url name" 
         className={activeLink === "toto" ? "active navbar-link" : "navbar-link"} 
-        onClick={() => onUpdateActiveLink("toto")}
+        onClick={() => onUpdateActiveLink("snake")}
       >
         Projet Toto
       </NavLink>
