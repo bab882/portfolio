@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import { NavLink } from 'react-router-dom';
 
 function NavBar() {
   const [activeLink, setActiveLink] = useState("works");
@@ -69,6 +69,14 @@ function NavBar() {
       >
         Contact
       </a>
+      <NavLink 
+        to="/project/toto" 
+        itemProp="url name" 
+        className={activeLink === "toto" ? "active navbar-link" : "navbar-link"} 
+        onClick={() => onUpdateActiveLink("toto")}
+      >
+        Projet Toto
+      </NavLink>
       <span></span>
     </nav>
   );
