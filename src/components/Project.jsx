@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Project() {
   const linkRef = useRef(null);
@@ -82,7 +82,7 @@ function Project() {
           </div>
           <div className="container__project">
             <div className="project">
-            <NavLink to="/project/snake" target="_blank" className="navbar-link">
+            <Link to="/project/snake" target="_blank" className="navbar-link">
                 <h3 className="title__project">Snake Game</h3>
                 <p className="project__text mt-3">
                 This project is a modern take on the classic Snake game. The player controls a 
@@ -94,7 +94,7 @@ function Project() {
                   <li style={{ display: "inline", margin: "0 10px" }}>-</li>
                   <li style={{ display: "inline" }}>JavaScript</li>
                 </ul>
-              </NavLink>
+              </Link>
             </div>
             <div className="project">
               <a href="#">
