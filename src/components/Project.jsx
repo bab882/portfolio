@@ -83,7 +83,7 @@ function Project() {
           <div className="container__project">
             <div className="project">
 
-            <a href="/snake" target="_blank" rel="noopener noreferrer">
+            <Link to="/snake" className="navbar-link" >
                 <h3 className="title__project">Snake Game</h3>
                 <p className="project__text mt-3">
                 This project is a modern take on the classic Snake game. The player controls a 
@@ -95,8 +95,8 @@ function Project() {
                   <li style={{ display: "inline", margin: "0 10px" }}>-</li>
                   <li style={{ display: "inline" }}>JavaScript</li>
                 </ul>
-              </a>
-
+              </Link>
+              
             </div>
             <div className="project">
               <a href="#">
