@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<div className='App'><Home /></div> } />
         <Route path="/snake" element={<SnakeGame />} />
-        {/* <Route path="*" element={<Error404 />} /> */}
+        <Route path="*" element={<Error404 />} />
       </Routes>
     </Router>
   );
