@@ -4,7 +4,6 @@ import Home from "./pages/Home";
 import SnakeGame from './pages/SnakeGame';
 import Error404 from './pages/Error404';
 
-
 function App() {
   return (
     <Router>

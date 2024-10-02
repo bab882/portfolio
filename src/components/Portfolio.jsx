@@ -131,7 +131,7 @@ function Portfolio() {
                 </p>
             </div>
             <div className="experience">
-            <span style={{color: '#b778e8'}}>April 2023 - June 2024</span>
+            <span style={{color: '#b778e8'}}>April 2023 - June 2023</span>
             <h3 className="mt-1">Developer FullStack | Isabelle Viviani</h3>
                 <p className="text__experience">
                   Designed and developed websites from concept to launch.
