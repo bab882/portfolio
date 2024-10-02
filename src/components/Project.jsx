@@ -82,7 +82,7 @@ function Project() {
           </div>
           <div className="container__project">
             <div className="project">
-            <Link to="/project/snake" target="_blank" className="navbar-link">
+            <Link to="/snake" target="_blank" className="navbar-link" >
                 <h3 className="title__project">Snake Game</h3>
                 <p className="project__text mt-3">
                 This project is a modern take on the classic Snake game. The player controls a 
