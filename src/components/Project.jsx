@@ -95,7 +95,7 @@ function Project() {
                   <li style={{ display: "inline", margin: "0 10px" }}>-</li>
                   <li style={{ display: "inline" }}>JavaScript</li>
                 </ul>
-              </Link>
+            </Link>
               
             </div>
             <div className="project">
