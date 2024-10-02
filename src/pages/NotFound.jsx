@@ -1,5 +1,5 @@
 // src/pages/ServerError.js
-import React from 'react';
+// import React from 'react';
 import { Link } from 'react-router-dom';
 
 function NotFound() {
