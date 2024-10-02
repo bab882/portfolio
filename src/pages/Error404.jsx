@@ -1,7 +1,8 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 
-function ErrorPage() {
+function Error404() {
+    
     return (
         <div className="container">
             <div className="col-12 d-flex justify-content-center align-items-center vh-100">
@@ -14,4 +15,4 @@ function ErrorPage() {
     );
 }
 
-export default ErrorPage;
+export default Error404;
