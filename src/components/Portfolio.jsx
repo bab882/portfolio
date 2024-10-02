@@ -121,49 +121,36 @@ function Portfolio() {
         <div className="column">
           <div className="item" id="item">
             <h4>expérience</h4>
-            <div className="cv-item">
-              <div className="left">
-                <p>2024</p>
-              </div>
-              <div className="right">
-                <h3>Developer FullStack</h3>
-                <span>Circet France</span>
-                <p>
+            <div className="experience">
+              <span style={{color: '#b778e8'}}>May 2024 - September 2024</span>
+              <h3 className="mt-1">Developer FullStack | Circet France</h3>
+              <p className="text__experience">
                   Managed and implemented modifications on internal applications.
                   Optimized code for better performance and usability.
                   Created new processes to improve functionality and workflow.
                 </p>
-              </div>
             </div>
-            <div className="cv-item">
-              <div className="left">
-                <p>2023</p>
-              </div>
-              <div className="right">
-                <h3>Developer FullStack</h3>
-                <span>Isabelle Viviani</span>
-                <p>
+            <div className="experience">
+            <span style={{color: '#b778e8'}}>April 2023 - June 2024</span>
+            <h3 className="mt-1">Developer FullStack | Isabelle Viviani</h3>
+                <p className="text__experience">
                   Designed and developed websites from concept to launch.
                   Implemented user-friendly interfaces and ensured responsiveness across devices.
                   Optimized websites for SEO and performance.
                 </p>
-              </div>
             </div>
           </div>
 
           <div className="item" id="item">
+            
             <h4>éducation</h4>
-            <div className="cv-item">
-              <div className="left">
-                <p>2022/ 23</p>
-              </div>
-              <div className="right">
-                <h3>Web and Mobile Web Developer</h3>
-                <p>Chamber of Commerce and Industry</p>
-              </div>
+            <div className="experience">
+              <span style={{color: '#b778e8'}}>2022 - 2023</span>
+              <h3 className="mt-1">Web and Mobile Web Developer</h3>
+              <p className="text__experience">Chamber of Commerce and Industry</p>
             </div>
           </div>
-          {/* <div className="item">Caroussel with react</div> */}
+
           <div className="item" id="item">
             <h4>skillset</h4>
             <div className="content">
