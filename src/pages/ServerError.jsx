@@ -1,4 +1,3 @@
-// src/pages/ServerError.js
 import React from 'react';
 
 function ServerError() {
