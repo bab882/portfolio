@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function NotFound() {
+function Error404() {
     return (
         // <div className="container">
         //     <div className="col-12 d-flex justify-content-center align-items-center vh-100">
@@ -14,4 +14,4 @@ function NotFound() {
     );
 }
 
-export default NotFound;
+export default Error404;
