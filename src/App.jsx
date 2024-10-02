@@ -1,8 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from "./pages/Home";
 import SnakeGame from './pages/SnakeGame';
-import Error404 from './pages/Error404';
+import Error404 from './components/Error404';
 
 const router = createBrowserRouter([
   {
