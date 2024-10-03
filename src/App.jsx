@@ -1,10 +1,10 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Navigate, createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
 import Home from './pages/Home'; // Assure-toi que le chemin correspond à ton fichier
 import SnakeGame from './pages/SnakeGame'; // Assure-toi que le chemin correspond à ton fichier
 import NotFound from './pages/NotFound'; // Assure-toi que le chemin correspond à ton fichier
 
-const routes = createBrowserRouter([
+const router = createBrowserRouter([
     { path: '/', element: <Home /> },
     { path: '/snake', element: <SnakeGame /> },
     { path: '/404', element: <NotFound /> },
@@ -13,13 +13,7 @@ const routes = createBrowserRouter([
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        {routes.map(({ path, element }) => (
-          <Route key={path} path={path} element={element} />
-        ))}
-      </Routes>
-    </BrowserRouter>
+    <RouterProvider router={router} />
   );
 }
 
