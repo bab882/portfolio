@@ -1,8 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from "./pages/Home";
 import SnakeGame from './pages/SnakeGame';
-import Error404 from './pages/Error404';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -10,7 +10,8 @@ function App() {
       <Routes>
         <Route path="/" element={<div className='App'><Home /></div> } />
         <Route path="/snake" element={<SnakeGame />} />
-        <Route path="*" element={<Error404 />} />
+        <Route path="/404" element={<NotFound />} />
+        <Route path="*" element={<Navigate to="/404" replace />} />
       </Routes>
     </Router>
   );

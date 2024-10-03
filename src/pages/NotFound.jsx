@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 
-function Error404() {
+function NotFound() {
     
     return (
         <div className="container">
@@ -15,4 +15,4 @@ function Error404() {
     );
 }
 
-export default Error404;
+export default NotFound;
