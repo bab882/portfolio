@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter> 
       <Routes> 
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<SnakeGame />} />
+        <Route path="/snake" element={<SnakeGame />} />
 
         <Route path="/404" element={ <NotFound /> } />
         <Route path="*" element={ <Navigate to="/404" replace />} />
