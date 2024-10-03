@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router , Routes, Route, Navigate} from 'react-router-dom';
 import Home from "./pages/Home";
 import SnakeGame from './pages/SnakeGame';
-import NotFound from './pages/NotFound';
+import NotFound from './components/NotFound';
 
 
 function App() {
