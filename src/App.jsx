@@ -7,7 +7,7 @@ import NotFound from './pages/NotFound'; // Assure-toi que le chemin correspond 
 const routes = createBrowserRouter([
     { path: '/', element: <Home /> },
     { path: '/snake', element: <SnakeGame /> },
-    { path: '/*', element: <NotFound /> },
+    { path: '/404', element: <NotFound /> },
     { path: '*', element: <Navigate to="/404" replace /> }
 ]);
 
