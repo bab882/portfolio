@@ -9,7 +9,7 @@ const Root = () => (
   <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/snake" element={<SnakeGame />} />
-    <Route path="/*" element={<NotFound />} />
+    <Route path="*" element={<NotFound />} />
     {/* <Route path="/*" element={<Navigate to="/404" replace />} /> */}
   </Routes>
 );
