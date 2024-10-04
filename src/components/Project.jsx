@@ -99,23 +99,21 @@ function Project() {
               
             </div>
             <div className="project">
-              <a href="#">
-                <h3 className="title__project" >Lorem ipsum dolor sit amet.</h3>
+              <a href="https://bab882.github.io/brandon-chanite/" target="_blank">
+                <h3 className="title__project" >Portfolio 2023</h3>
                 <p className="project__text mt-3">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
-                  dicta pariatur quis veniam ut, assumenda ab nesciunt
-                  accusantium veritatis voluptatum officiis distinctio, quod,
-                  soluta animi! Ipsa temporibus sed hic voluptatem.
+                This portfolio, created in 2023, uses LocomotiveScroll for smooth animations.
+                While I’ve since evolved, this version reflects my work at that time.
                 </p>
                 <ul
                   className="outil__project"
                   style={{ listStyle: "none", padding: 0 }}
                 >
-                  <li style={{ display: "inline" }}>React</li>
+                  <li style={{ display: "inline" }}>HTML</li>
                   <li style={{ display: "inline", margin: "0 10px" }}>-</li>
-                  <li style={{ display: "inline" }}>Symfony</li>
+                  <li style={{ display: "inline" }}>JavaScript</li>
                   <li style={{ display: "inline", margin: "0 10px" }}>-</li>
-                  <li style={{ display: "inline" }}>MySQL</li>
+                  <li style={{ display: "inline" }}>LocomotiveScroll</li>
                 </ul>
               </a>
             </div>
