@@ -783,7 +783,7 @@ a {
 .scroll-section-outer {
   background: #050507;
   border-radius: 3rem 3rem 0 0;
-
+  overflow-x: hidden;
 }
 .text-wrapper {
   display: flex;
