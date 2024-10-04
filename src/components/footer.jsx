@@ -41,10 +41,10 @@ function Footer() {
                 <a href={`mailto:${email}`} className="bg-icone">
                   <i className="fa-solid fa-envelope"></i>
                 </a>
-                <a href="https://github.com/bab882" className="bg-icone">
+                <a href="https://github.com/bab882" target="_blank" className="bg-icone">
                   <i className="fa-brands fa-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/brandonchanite7a021252" className="bg-icone" >
+                <a href="https://www.linkedin.com/in/brandonchanite7a021252" target="_blank" className="bg-icone" >
                   <i className="fa-brands fa-linkedin-in"></i>
                 </a>
               </div>
