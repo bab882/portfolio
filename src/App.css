@@ -961,6 +961,9 @@ a {
 .item {
   padding: 30px; 
   background: #000000;
+  animation: appear 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 .item .description_about {
   font-size: 22px;
@@ -1119,7 +1122,6 @@ footer {
 
 .footer__title .subtitle {
   margin-top: 10%;
-  /* font-size: 4rem; */
 }
 .footer__title .btn {
   left: 0;
@@ -1161,6 +1163,17 @@ footer {
   right: -40%;
   transform: translateX(-50%);
 }
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.4;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
 @media screen and (max-width: 1700px) {
   #title span {
     font-size: 7rem;
@@ -1481,14 +1494,15 @@ footer {
   
   .subtitle__text {
     font-size: 14px;
-    /* max-width: 80%; */
   }
   .subtitle {
     font-size: 3rem;
   }
   .wrapper__subtitle {
     margin: 50px 0 30px 0;
-    /* background-color: red; */
+  }
+  .ajusted {
+    background-color: red;
   }
 }
 @media screen and (max-width: 643px) {

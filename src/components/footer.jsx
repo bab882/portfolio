@@ -28,7 +28,7 @@ function Footer() {
           <a className="btn btn1 justify-content-center mx-2" href={`mailto:${email}`} type="button" >Contact</a>
           <div className="line2 ">
             <div className="row justify-content-between align-items-baseline ajusted">
-              <div className="col-12 col-md-6 text-start">
+              <div className="col-md-6 text-start">
                 <div style={{ color: "#fefefe" }}>
                   Designed and developed by Bab
                 </div>
@@ -37,7 +37,7 @@ function Footer() {
                   <span> 2024 All rights reserved</span>
                 </div>
               </div>
-              <div className="col-12 col-md-6 text-end">
+              <div className="col-md-6 text-end">
                 <a href={`mailto:${email}`} className="bg-icone">
                   <i className="fa-solid fa-envelope"></i>
                 </a>
