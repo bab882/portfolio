@@ -199,16 +199,6 @@ a {
   object-fit: cover;
   object-position: top; 
 }
-/* #title {
-  font-family: 'Manrope', sans-serif;
-  font-size: 8rem;
-  font-weight: 900;
-  background: -webkit-linear-gradient(40deg,#fefefe, #38495a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  line-height: 1;
-  padding: 0 5px;
-} */
 #title span {
   display: block;
   font-family: 'Manrope', sans-serif;
@@ -784,6 +774,9 @@ a {
   background: #050507;
   border-radius: 3rem 3rem 0 0;
   overflow-x: hidden;
+  animation: appear 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
 }
 .text-wrapper {
   display: flex;
@@ -928,7 +921,7 @@ a {
 
 
 
-/* Start Portfolio */
+/* ======================================================= Start Portfolio ======================================================= */
 
 .container_about {
   display: flex;
@@ -936,6 +929,9 @@ a {
   justify-content: center;
   background: #000000;
   margin: 40px 20px 0 20px;
+  animation: appear 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
 } 
 .container_about .about {
   display: flex;
@@ -965,6 +961,7 @@ a {
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
+
 .item .description_about {
   font-size: 22px;
   color: #fefefe;
@@ -1097,6 +1094,9 @@ footer {
   border-radius: 3rem 3rem 0 0;
   background: #000000;
   overflow: hidden;
+  animation: appear 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
 .wrapper_footer {
@@ -1501,9 +1501,6 @@ footer {
   .wrapper__subtitle {
     margin: 50px 0 30px 0;
   }
-  .ajusted {
-    background-color: red;
-  }
 }
 @media screen and (max-width: 643px) {
   .container_about .about {
@@ -1650,7 +1647,7 @@ footer {
 canvas {
   border: 1px solid #fefefe;
   background: #000000;
-  background-image: ;
+
 }
 
 .text__experience {
