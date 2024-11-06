@@ -8,7 +8,7 @@ import stack6 from "../assets/img/logo/webpack.png";
 import stack7 from "../assets/img/logo/symfony.png";
 import logo from "../assets/img/logo.png";
 import profil from "../assets/img/pohot.jpg";
-import cvPdf from "../assets/doc/cv.pdf";
+import cv from "../assets/doc/cv.pdf";
 
 function Portfolio() {
 
@@ -48,7 +48,7 @@ function Portfolio() {
               </a>
             </div>
             <div className="link-right">
-              <a href={cvPdf} className="bg-icone2" target="_blank">
+              <a href={cv} className="bg-icone2" target="_blank">
                 <i className="fa-solid fa-download"></i>Resume
               </a>
             </div>
