@@ -8,7 +8,7 @@ import stack6 from "../assets/img/logo/webpack.png";
 import stack7 from "../assets/img/logo/symfony.png";
 import logo from "../assets/img/logo.png";
 import profil from "../assets/img/pohot.jpg";
-import cv from "../assets/doc/cv.pdf";
+import cv from "../assets/doc/cv-bab-codes.pdf";
 
 function Portfolio() {
 
