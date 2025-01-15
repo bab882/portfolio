@@ -82,28 +82,28 @@ function Project() {
           </div>
           <div className="container__project">
             <div className="project">
-
-            <Link to="/snake" className="navbar-link" >
-                <h3 className="title__project">Snake Game</h3>
-                <p className="project__text mt-3">
-                This project is a modern take on the classic Snake game. The player controls a 
-                snake that grows longer each time it eats. Avoid obstacles and try to achieve 
-                the highest score possible!
-                </p>
-                <ul className="outil__project" style={{ listStyle: "none", padding: 0 }}>
-                  <li style={{ display: "inline" }}>CSS</li>
-                  <li style={{ display: "inline", margin: "0 10px" }}>-</li>
-                  <li style={{ display: "inline" }}>JavaScript</li>
-                </ul>
-            </Link>
-              
+                <a href="https://bab882.github.io/login/" target="_blank">
+                  <h3 className="title__project" >Toggle Password Visibility</h3>
+                  <p className="project__text mt-3">
+                    Feature to display the PIN in plain text for testing purposes,
+                    designed with a focus on usability. In production, data remains 
+                    hashed to ensure security. 
+                  </p>
+                  <ul className="outil__project" style={{ listStyle: "none", padding: 0 }} >
+                    <li style={{ display: "inline" }}>HTML</li>
+                    <li style={{ display: "inline", margin: "0 10px" }}>-</li>
+                    <li style={{ display: "inline" }}>CSS</li>
+                    <li style={{ display: "inline", margin: "0 10px" }}>-</li>
+                    <li style={{ display: "inline" }}>JavaScript</li>
+                  </ul>
+                </a>
             </div>
             <div className="project">
               <a href="https://bab882.github.io/brandon-chanite/" target="_blank">
                 <h3 className="title__project" >Portfolio 2023</h3>
                 <p className="project__text mt-3">
-                This portfolio, created in 2023, uses LocomotiveScroll for smooth animations.
-                While I’ve since evolved, this version reflects my work at that time.
+                  This portfolio, created in 2023, uses LocomotiveScroll for smooth animations.
+                  While I’ve since evolved, this version reflects my work at that time.
                 </p>
                 <ul
                   className="outil__project"
@@ -116,25 +116,24 @@ function Project() {
                   <li style={{ display: "inline" }}>LocomotiveScroll</li>
                 </ul>
               </a>
-            </div>
+              </div>
             <div className="project">
-              <a href="#">
-                <h3 className="title__project" >Lorem ipsum dolor sit amet.</h3>
+            <Link to="/snake" className="navbar-link" >
+                <h3 className="title__project">Snake Game</h3>
                 <p className="project__text mt-3">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
-                  dicta pariatur quis veniam ut, assumenda ab nesciunt
-                  accusantium veritatis voluptatum officiis distinctio, quod,
-                  soluta animi! Ipsa temporibus sed hic voluptatem.
+                This project is a modern take on the classic Snake game. The player controls a 
+                snake that grows longer each time it eats. Avoid obstacles and try to achieve 
+                the highest score possible!
                 </p>
-                <ul className="outil__project" style={{ listStyle: "none", padding: 0 }} >
+                <ul className="outil__project" style={{ listStyle: "none", padding: 0 }}>
+                  <li style={{ display: "inline" }}>CSS</li>
+                  <li style={{ display: "inline", margin: "0 10px" }}>-</li>
                   <li style={{ display: "inline" }}>React</li>
-                  <li style={{ display: "inline", margin: "0 10px" }}>-</li>
-                  <li style={{ display: "inline" }}>Symfony</li>
-                  <li style={{ display: "inline", margin: "0 10px" }}>-</li>
-                  <li style={{ display: "inline" }}>MySQL</li>
                 </ul>
-              </a>
+            </Link>      
             </div>
+            
+            
           </div>
         </div>
       </div>
