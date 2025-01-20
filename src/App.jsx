@@ -4,7 +4,6 @@ import Home from "./pages/Home";
 import SnakeGame from './pages/SnakeGame';
 import NotFound from './components/NotFound';
 
-
 function App() {
   return (
     <BrowserRouter>
