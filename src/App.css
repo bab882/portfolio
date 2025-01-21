@@ -1653,3 +1653,16 @@ canvas {
 .text__experience {
   margin-top: 0px !important;
 }
+
+.tarteaucitronAlertBigBottom {
+  background-color: #AA47F8 !important;
+  height: 200px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+#tarteaucitronPersonalize2,
+#tarteaucitronAllDenied2 {
+  background-color: #000000 !important;
+}
