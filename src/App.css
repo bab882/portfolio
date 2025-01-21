@@ -1656,7 +1656,8 @@ canvas {
 
 .tarteaucitronAlertBigBottom {
   background-color: #AA47F8 !important;
-  height: 200px;
+  height: 150px;
+  border-radius: 20px 20px 0 0;
   display: flex !important;
   justify-content: center;
   align-items: center;
