@@ -1673,7 +1673,21 @@ footer {
   #tarteaucitronDisclaimerAlert {
     font-size: 12px !important;
   }
-  
+  .tarteaucitronTitle span {
+    display: none;
+  }
+  .tarteaucitronName {
+    margin-top: -30px !important;
+  }
+  .tarteaucitronName {
+    margin-top: 50px !important;
+  }
+  #tarteaucitronDetailsapi, #tarteaucitronDetailsvideo {
+    margin-top: -10px !important;
+  }
+  .catToggleBtn {
+    margin-bottom: 0 !important;
+  }
   .left {
     flex: 0 0 70px;
   }
