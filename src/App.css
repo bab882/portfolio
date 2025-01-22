@@ -1654,16 +1654,24 @@ canvas {
   margin-top: 0px !important;
 }
 
-.tarteaucitronAlertBigBottom {
-  background-color: #AA47F8 !important;
-  height: 150px;
-  border-radius: 20px 20px 0 0;
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
+.tarteaucitronAlertBigTop {
+  background-color: #000000 !important;
 }
 
 #tarteaucitronPersonalize2,
 #tarteaucitronAllDenied2 {
-  background-color: #000000 !important;
+  background-color: #8B5994 !important;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 30px !important;
+  padding: 10px 20px !important;
+}
+
+#tarteaucitronCloseAlert {
+  background-color: #080808 !important;
+  color: #fefefe !important;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 30px !important;
+  padding: 10px 20px !important;
 }
