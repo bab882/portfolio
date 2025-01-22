@@ -1174,6 +1174,95 @@ footer {
   }
 }
 
+.tarteaucitronAlertBigTop {
+  background-color: #000000 !important;
+}
+
+#tarteaucitronPersonalize2,
+#tarteaucitronAllDenied2 {
+  background-color: #8B5994 !important;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 30px !important;
+  padding: 10px 20px !important;
+}
+
+#tarteaucitronCloseAlert {
+  background-color: #080808 !important;
+  color: #fefefe !important;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 30px !important;
+  padding: 10px 20px !important;
+}
+#tarteaucitronMainLineOffset {
+  background-color: #000000 !important;
+}
+
+#tarteaucitronInfo {
+  background-color: #000000 !important;
+}
+
+#tarteaucitronAllAllowed, #tarteaucitronAllDenied {
+  background-color: #8B5994 !important;
+  color: #fefefe !important;
+  opacity: 1;
+  font-weight: 500;
+  align-content: center;
+  border-radius: 30px !important;
+  padding: 10px 20px !important;
+}
+
+.tarteaucitronTitle button {
+  background-color: #fff !important;
+  color: #000000 !important;
+  font-size: 18px !important;
+  margin-left: -17px !important;
+}
+
+.tarteaucitronLine, .tarteaucitronTitle {
+  background-color: #fff !important;
+}
+
+.catToggleBtn {
+  background-color: #fff !important;
+  color: #000000 !important;
+  font-size: 18px !important;
+  margin-bottom: 80px !important;
+  margin-left: -17px !important;
+  cursor: default !important;
+}
+
+#tarteaucitronSave {
+  background-color: #fff !important;
+  font-size: 20px !important;
+}
+
+#tarteaucitronDetailsapi, #tarteaucitronDetailsvideo {
+  background-color: #fff !important;
+  margin-top: -80px !important;
+  display: block !important;
+  color: #000000 !important;
+}
+
+#googlefontsAllowed, 
+#googlefontsDenied, 
+#spotifyAllowed, 
+#spotifyDenied {
+  border-radius: 30px !important;
+  padding: 8px 15px  !important;
+}
+
+#tarteaucitronSaveButton {
+  background-color: #000000 !important;
+  border-radius: 30px !important;
+  padding: 10px 20px !important;
+}
+
+#tarteaucitronClosePanel {
+  display: none !important;
+}
+
 @media screen and (max-width: 1700px) {
   #title span {
     font-size: 7rem;
@@ -1239,6 +1328,9 @@ footer {
   }
 }
 @media screen and (max-width: 1200px) {
+  #tarteaucitronDisclaimerAlert {
+    font-size: 14px !important;
+  }
   #item h4 {
     font-size: 18px;
   }
@@ -1318,6 +1410,9 @@ footer {
   }
 }
 @media screen and (max-width: 991px) {
+  #tarteaucitronDisclaimerAlert {
+    font-size: 14px !important;
+  }
   .container_about .about {
     flex-direction: column;
   }
@@ -1405,6 +1500,9 @@ footer {
   }
 }
 @media screen and (max-width: 767px)  {
+  #tarteaucitronDisclaimerAlert {
+    font-size: 14px !important;
+  }
   .stack {
     width: 60px;
     height: 60px;
@@ -1503,6 +1601,9 @@ footer {
   }
 }
 @media screen and (max-width: 643px) {
+  #tarteaucitronDisclaimerAlert {
+    font-size: 12px !important;
+  }
   .container_about .about {
     gap: 10px;
   }
@@ -1569,6 +1670,10 @@ footer {
   }
 } 
 @media (min-width: 360px) and (max-width: 399px) {
+  #tarteaucitronDisclaimerAlert {
+    font-size: 12px !important;
+  }
+  
   .left {
     flex: 0 0 70px;
   }
@@ -1612,6 +1717,7 @@ footer {
   }
 }
 @media screen and (min-width: 360px) {
+
   .footer__title {
     margin: 70px 10px;
   }
@@ -1636,6 +1742,7 @@ footer {
     margin-bottom: -30px;
   }
 }
+
 .container {
   height: 100vh;
   display: flex;
@@ -1644,99 +1751,13 @@ footer {
   align-items: center;
   gap: 100px;
 }
+
 canvas {
   border: 1px solid #fefefe;
   background: #000000;
-
 }
 
 .text__experience {
   margin-top: 0px !important;
 }
 
-.tarteaucitronAlertBigTop {
-  background-color: #000000 !important;
-}
-
-#tarteaucitronPersonalize2,
-#tarteaucitronAllDenied2 {
-  background-color: #8B5994 !important;
-  font-size: 1rem;
-  font-weight: 500;
-  border-radius: 30px !important;
-  padding: 10px 20px !important;
-}
-
-#tarteaucitronCloseAlert {
-  background-color: #080808 !important;
-  color: #fefefe !important;
-  font-size: 1rem;
-  font-weight: 500;
-  border-radius: 30px !important;
-  padding: 10px 20px !important;
-}
-#tarteaucitronMainLineOffset {
-  background-color: #000000 !important;
-}
-
-#tarteaucitronInfo {
-  background-color: #000000 !important;
-}
-
-#tarteaucitronAllAllowed, #tarteaucitronAllDenied {
-  background-color: #8B5994 !important;
-  color: #fefefe !important;
-  opacity: 1;
-  font-weight: 500;
-  align-content: center;
-  border-radius: 30px !important;
-  padding: 10px 20px !important;
-}
-.tarteaucitronTitle button {
-  background-color: #fff !important;
-  color: #000000 !important;
-  font-size: 18px !important;
-  margin-left: -17px !important;
-}
-.tarteaucitronLine, .tarteaucitronTitle {
-  background-color: #fff !important;
-}
-
-.catToggleBtn {
-  background-color: #fff !important;
-  color: #000000 !important;
-  font-size: 18px !important;
-  margin-bottom: 80px !important;
-  margin-left: -17px !important;
-  cursor: default !important;
-}
-
-#tarteaucitronSave {
-  background-color: #fff !important;
-  font-size: 20px !important;
-}
-
-#tarteaucitronDetailsapi, #tarteaucitronDetailsvideo {
-  background-color: #fff !important;
-  margin-top: -80px !important;
-  display: block !important;
-  color: #000000 !important;
-}
-
-#googlefontsAllowed, 
-#googlefontsDenied, 
-#spotifyAllowed, 
-#spotifyDenied {
-  border-radius: 30px !important;
-  padding: 8px 15px  !important;
-}
-
-#tarteaucitronSaveButton {
-  background-color: #000000 !important;
-  border-radius: 30px !important;
-  padding: 10px 20px !important;
-}
-
-#tarteaucitronClosePanel {
-  display: none !important;
-}
