@@ -1692,7 +1692,12 @@ canvas {
   border-radius: 30px !important;
   padding: 10px 20px !important;
 }
-
+.tarteaucitronTitle button {
+  background-color: #fff !important;
+  color: #000000 !important;
+  font-size: 18px !important;
+  margin-left: -17px !important;
+}
 .tarteaucitronLine, .tarteaucitronTitle {
   background-color: #fff !important;
 }
@@ -1700,14 +1705,38 @@ canvas {
 .catToggleBtn {
   background-color: #fff !important;
   color: #000000 !important;
-}
-
-.tarteaucitronTitle {
-  background-color: #fff !important;
-
+  font-size: 18px !important;
+  margin-bottom: 80px !important;
+  margin-left: -17px !important;
+  cursor: default !important;
 }
 
 #tarteaucitronSave {
   background-color: #fff !important;
   font-size: 20px !important;
+}
+
+#tarteaucitronDetailsapi, #tarteaucitronDetailsvideo {
+  background-color: #fff !important;
+  margin-top: -80px !important;
+  display: block !important;
+  color: #000000 !important;
+}
+
+#googlefontsAllowed, 
+#googlefontsDenied, 
+#spotifyAllowed, 
+#spotifyDenied {
+  border-radius: 30px !important;
+  padding: 8px 15px  !important;
+}
+
+#tarteaucitronSaveButton {
+  background-color: #000000 !important;
+  border-radius: 30px !important;
+  padding: 10px 20px !important;
+}
+
+#tarteaucitronClosePanel {
+  display: none !important;
 }
