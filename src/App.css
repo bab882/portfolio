@@ -1675,3 +1675,39 @@ canvas {
   border-radius: 30px !important;
   padding: 10px 20px !important;
 }
+#tarteaucitronMainLineOffset {
+  background-color: #000000 !important;
+}
+
+#tarteaucitronInfo {
+  background-color: #000000 !important;
+}
+
+#tarteaucitronAllAllowed, #tarteaucitronAllDenied {
+  background-color: #8B5994 !important;
+  color: #fefefe !important;
+  opacity: 1;
+  font-weight: 500;
+  align-content: center;
+  border-radius: 30px !important;
+  padding: 10px 20px !important;
+}
+
+.tarteaucitronLine, .tarteaucitronTitle {
+  background-color: #fff !important;
+}
+
+.catToggleBtn {
+  background-color: #fff !important;
+  color: #000000 !important;
+}
+
+.tarteaucitronTitle {
+  background-color: #fff !important;
+
+}
+
+#tarteaucitronSave {
+  background-color: #fff !important;
+  font-size: 20px !important;
+}
