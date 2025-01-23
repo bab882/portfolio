@@ -1670,6 +1670,7 @@ footer {
   }
 } 
 @media (min-width: 360px) and (max-width: 399px) {
+  
   #tarteaucitronDisclaimerAlert {
     font-size: 12px !important;
   }
@@ -1684,6 +1685,7 @@ footer {
   }
   #tarteaucitronDetailsapi, #tarteaucitronDetailsvideo {
     margin-top: -10px !important;
+    background-color: #fff !important;
   }
   .catToggleBtn {
     margin-bottom: 0 !important;
@@ -1775,3 +1777,6 @@ canvas {
   margin-top: 0px !important;
 }
 
+#tarteaucitron #tarteaucitronServices .tarteaucitronHidden {
+  background-color: #fff !important;
+}
