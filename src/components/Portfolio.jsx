@@ -62,7 +62,7 @@ function Portfolio() {
             </p>
             <p>
               My <span className="effecte">fascination with technology</span> began at a young age, sparked by watching my grandfather assemble PCs in his office with passionate interest. Although I pursued a degree in computer science, my true passion lies in the craft of
-              <span className="effecte">programming, extending beyond mere lines of code.</span>
+              <span className="effecte"> programming, extending beyond mere lines of code.</span>
             </p>
             <p>
               My curiosity led me to wonder: <span className="effecte">could I also create something that can evoke this effect on people? </span>
