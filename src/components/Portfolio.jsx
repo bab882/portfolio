@@ -26,8 +26,7 @@ function Portfolio() {
     <div className="container_about">
       <div className="wrapper__subtitle">
         <h2 className="subtitle">My Skillset</h2>
-      </div>
-                      
+      </div>    
       <div className="about">
         <div className="column">
           <div className="item">
@@ -72,49 +71,38 @@ function Portfolio() {
             </p>
             <img src={logo} alt="" className="logo" />
           </div>
-          
         </div>
-
         <div className="column">
           <div className="item4">
             <img src={profil} alt="I'm me" />
           </div>
           <div className="item" id="item">
             <h4>favorite jams</h4>
-
-            <iframe
+            <iframe 
+              style={{ borderRadius: "12px" }} 
+              src="https://open.spotify.com/embed/track/2KejCKgm7l3uefW9cFt8cH?utm_source=generator&theme=0" 
+              width="100%" 
+              height="100" 
+              frameBorder="0" 
+              loading="lazy">
+            </iframe>
+            <iframe 
               style={{ borderRadius: "12px" }}
-              src="https://open.spotify.com/embed/track/5mjYQaktjmjcMKcUIcqz4s?utm_source=generator&theme=0"
+              src="https://open.spotify.com/embed/track/6UAgnw2w3AVwLg1p7sE7v4?utm_source=generator&theme=0"
+              width="100%" height="100" 
+              frameBorder="0" 
+              loading="lazy">
+            </iframe>
+            <iframe 
+              style={{ borderRadius: "12px" }} 
+              src="https://open.spotify.com/embed/track/6GyFP1nfCDB8lbD2bG0Hq9?utm_source=generator&theme=0"
               width="100%"
               height="100"
               frameBorder="0"
-              allowFullScreen=""
-              // allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-            ></iframe>
-            <iframe
-              style={{ borderRadius: "12px" }}
-              src="https://open.spotify.com/embed/track/6SWVr6T3yQS6gZ9gQHrr2b?utm_source=generator&theme=0"
-              width="100%"
-              height="100"
-              frameBorder="0"
-              allowFullScreen=""
-              // allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-            ></iframe>
-            <iframe
-              style={{ borderRadius: "12px" }}
-              src="https://open.spotify.com/embed/track/75A0IHjwrTj0LZhbeI1pR0?utm_source=generator&theme=0"
-              width="100%"
-              height="100"
-              frameBorder="0"
-              allowFullScreen=""
-              // allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-            ></iframe>
+              loading="lazy">
+            </iframe>
           </div>
         </div>
-
         <div className="column">
           <div className="item" id="item">
             <h4>expérience</h4>
@@ -137,9 +125,7 @@ function Portfolio() {
                 </p>
             </div>
           </div>
-
-          <div className="item" id="item">
-            
+          <div className="item" id="item"> 
             <h4>éducation</h4>
             <div className="experience">
               <span style={{color: '#b778e8'}}>2022 - 2023</span>
@@ -147,7 +133,6 @@ function Portfolio() {
               <p className="text__experience">Chamber of Commerce and Industry</p>
             </div>
           </div>
-
           <div className="item" id="item">
             <h4>skillset</h4>
             <div className="content">

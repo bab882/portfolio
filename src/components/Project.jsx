@@ -81,6 +81,25 @@ function Project() {
             <a className="btn btn1" href={`mailto:${email}`} type="button">Contact</a>
           </div>
           <div className="container__project">
+          <div className="project">
+            <a href="https://tachy.netlify.app/" target="_blank">
+                  <h3 className="title__project" >Tachy</h3>
+                  <p className="project__text mt-3">
+                  This application features a secure authentication system with
+                  Firebase and an intuitive to-do list. Users can sign up, log in,
+                  and organize their tasks easily with a clean and responsive interface.
+                  </p>
+                  <ul className="outil__project" style={{ listStyle: "none", padding: 0 }} >
+                    <li style={{ display: "inline" }}>React</li>
+                    <li style={{ display: "inline", margin: "0 10px" }}>-</li>
+                    <li style={{ display: "inline" }}>Firebase</li>
+                    <li style={{ display: "inline", margin: "0 10px" }}>-</li>
+                    <li style={{ display: "inline" }}>CSS</li>
+                    <li style={{ display: "inline", margin: "0 10px" }}>-</li>
+                    <li style={{ display: "inline" }}>Bootstrap</li>
+                  </ul>
+                </a>
+            </div>
             <div className="project">
                 <a href="https://bab882.github.io/login/" target="_blank">
                   <h3 className="title__project" >Toggle Password Visibility</h3>
@@ -117,23 +136,6 @@ function Project() {
                 </ul>
               </a>
               </div>
-            <div className="project">
-            <Link to="/snake" className="navbar-link" >
-                <h3 className="title__project">Snake Game</h3>
-                <p className="project__text mt-3">
-                This project is a modern take on the classic Snake game. The player controls a 
-                snake that grows longer each time it eats. Avoid obstacles and try to achieve 
-                the highest score possible!
-                </p>
-                <ul className="outil__project" style={{ listStyle: "none", padding: 0 }}>
-                  <li style={{ display: "inline" }}>CSS</li>
-                  <li style={{ display: "inline", margin: "0 10px" }}>-</li>
-                  <li style={{ display: "inline" }}>React</li>
-                </ul>
-            </Link>      
-            </div>
-            
-            
           </div>
         </div>
       </div>
