@@ -107,6 +107,15 @@ function Portfolio() {
           <div className="item" id="item">
             <h4>expérience</h4>
             <div className="experience">
+              <span style={{color: '#b778e8'}}>January 2025 - In progress</span>
+              <h3 className="mt-1">Application Developer | Ace Software</h3>
+              <p className="text__experience">
+                Participated in the design and development of application in collaboration with the technical team.  
+                {/* Analyzed requirements, devised tailored solutions, and implemented new features following best development practices.  
+                Contributed to performance optimization and project scalability.   */}
+                </p>
+            </div>
+            <div className="experience">
               <span style={{color: '#b778e8'}}>May 2024 - September 2024</span>
               <h3 className="mt-1">Developer FullStack | Circet France</h3>
               <p className="text__experience">
@@ -127,6 +136,11 @@ function Portfolio() {
           </div>
           <div className="item" id="item"> 
             <h4>éducation</h4>
+            <div className="experience">
+              <span style={{color: '#b778e8'}}>2025 - In Progress</span>
+              <h3 className="mt-1">Application Designer and Developer</h3>
+              <p className="text__experience">Iscod</p>
+            </div>
             <div className="experience">
               <span style={{color: '#b778e8'}}>2022 - 2023</span>
               <h3 className="mt-1">Web and Mobile Web Developer</h3>
