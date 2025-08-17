@@ -31,7 +31,7 @@ function Portfolio() {
         <div className="column">
           <div className="item">
             <p className="description_about">
-              Fullstack developer with two years of experience, I create user
+              Fullstack developer with four years of experience, I create user
               experiences and robust architectures, while ingeniously solving
               problems.
             </p>
