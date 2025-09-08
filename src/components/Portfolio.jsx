@@ -31,7 +31,7 @@ function Portfolio() {
         <div className="column">
           <div className="item">
             <p className="description_about">
-              Fullstack developer with four years of experience, I create user
+              Fullstack developer with three years of experience, I create user
               experiences and robust architectures, while ingeniously solving
               problems.
             </p>
@@ -107,7 +107,7 @@ function Portfolio() {
           <div className="item" id="item">
             <h4>expérience</h4>
             <div className="experience">
-              <span style={{color: '#b778e8'}}>January 2025 - In progress</span>
+              <span style={{color: '#b778e8'}}>January 2025 - August 2025</span>
               <h3 className="mt-1">Application Developer | Ace Software</h3>
               <p className="text__experience">
                 Participated in the design and development of application in collaboration with the technical team.  

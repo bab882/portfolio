@@ -3,7 +3,8 @@ import logo from "../assets/img/logo.png";
 
 function Footer() {
   const [email, setEmail] = useState("");
-
+  const year = new Date().getFullYear();
+  
   useEffect(() => {
     const hash1 = "contact";
     const hash2 = "bab-codes";
@@ -34,7 +35,7 @@ function Footer() {
                 </div>
                 <div>
                   <i className="fa-regular fa-copyright"></i>
-                  <span> 2024 All rights reserved</span>
+                  <span> {year} All rights reserved</span>
                 </div>
               </div>
               <div className="col-md-6 text-end">
